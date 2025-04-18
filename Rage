@@ -5,8 +5,8 @@ if setclipboard then
     if _G.DISPLAY_NOTIFICATION then
         _G.DISPLAY_NOTIFICATION("Discord The link is copied! Paste it into the browser")
     else
-        print("[DISCORD] The link is copied: "..invite)
+        warn("[DISCORD] The link is copied: "..invite)
     end
 else
-    print("[DISCORD] The link is copied: "..invite)
+    warn("[DISCORD] The link is copied: "..invite)
 end
