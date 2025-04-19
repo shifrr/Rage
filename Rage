@@ -1,4 +1,4 @@
-local invite = "https://discord.gg/wqmNjpZNJB"
+local invite = "https://discord.gg/GSh4WX4V55"
 
 if setclipboard then
     setclipboard(invite)
